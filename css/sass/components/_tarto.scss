@@ -1,0 +1,45 @@
+.tarto {
+  margin: auto;
+  width: 60vw;
+
+  h1 {
+    color: $alapszin;
+    margin-bottom: 1em;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  ul {
+    list-style-position: inside;
+
+    a {
+      color: $linkszin;
+      text-decoration: none;
+    }
+  }
+
+  .leirat {
+    h3 {
+      color: $alapszin;
+      margin-bottom: 0.5em;
+      margin-top: 0.5em;
+    }
+
+    .piros {
+      color: $piros;
+    }
+
+    .kod {
+      border: 1px solid black;
+      box-shadow: 2px 2px 2px black;
+      margin: 5px auto;
+      width: 80%;
+
+      code {
+        font-family: consolas;
+      }
+    }
+  }
+}
